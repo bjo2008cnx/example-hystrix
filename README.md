@@ -3,8 +3,7 @@ Hystrix Samples
 按以下顺序启动应用程序：
 
 *运行Eureka - 在技术上不需要，但避免其他应用程序
-在控制台上找不到Eureka时出现错误，终端位于http：// localhost：8761
-
+在控制台上找不到Eureka时出现错误，终端位于http://localhost：8761
     cd sample-eureka
     mvn spring-boot:run
 
@@ -12,9 +11,7 @@ Hystrix Samples
     cd sample-hystrix-dashboard
     mvn spring-boot:run
 
-
 * 启动示例服务，端点可在http：// localhost：8889获取
-
     cd service1
     ./gradlew runApp
 
